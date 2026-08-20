@@ -1,18 +1,27 @@
-## Getting Started
+# PacMan
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Pac-Man game made with Java Swing.
 
-## Folder Structure
+## Run
 
-The workspace contains two folders by default, where:
+Make sure Java is installed, then run:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```bash
+javac -d bin src/*.java
+cp src/*.png bin/
+java -cp bin App
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+On Windows PowerShell, use this instead of the `cp` command:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```powershell
+Copy-Item src\*.png bin\
+```
 
-## Dependency Management
+## Controls
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Arrow keys: Move Pac-Man
+
+## About
+
+This is a small Java project created to practice object-oriented programming, game logic, keyboard controls, collision detection, and Java Swing graphics.
