@@ -2,6 +2,17 @@
 
 A simple Pac-Man game made with Java Swing.
 
+## Download
+
+Download the latest Windows version from the [GitHub Releases page](../../releases/latest) once a release is published.
+
+### Installation
+
+1. Download the Windows ZIP.
+2. Extract the ZIP.
+3. Open the extracted `PacMan` folder.
+4. Double-click `PacMan.exe`.
+
 ## Run
 
 Make sure Java is installed, then run:
