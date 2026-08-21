@@ -1,0 +1,20 @@
+# Java compiled and build output
+/bin/
+*.class
+/target/
+/out/
+/build/
+/PacMan.jar
+/app/
+/PacMan/
+
+# IDE files
+/.idea/
+*.iml
+/.vscode/*
+!/.vscode/extensions.json
+
+# Temporary and operating-system files
+*.log
+.DS_Store
+Thumbs.db
